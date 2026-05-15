@@ -57,3 +57,13 @@
         </div>
     </div>
 </div>
+
+@code{
+    //variable of two way binding
+    private string UserName = "";
+
+    //property of one way binding
+    private string GreetingMessage => string.IsNullOrWhiteSpace(UserName)
+        ? "Please enter your name to continue."
+        : $"Welcome, {UserName}! Hope you have a productive day.";
+}
