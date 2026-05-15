@@ -81,3 +81,9 @@ h1:focus {
     text-align: center;
     margin-bottom:35px;
 }
+
+header-section h1 {
+    font-size: 38px;
+    color: #0f172a;
+    margin: 10px;
+}
