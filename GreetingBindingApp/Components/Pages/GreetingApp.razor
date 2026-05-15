@@ -23,7 +23,37 @@
 
             </div>
 
+            <div class="output-section">
+                <h3>
+                    Greeting Message
+                </h3>
 
+                <!-- One way data binding -->
+                <div class="message-box">
+                    @GreetingMessage
+                </div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-card">
+                    <h4>
+                        Two-Way data Binding
+                    </h4>
+                    <p>
+                        The <code>@@bind</code> directive automatically updates the
+                        <strong>UserName</strong> variable whenever the user types
+                        inside the textbox.
+                    </p>
+                </div>
+
+                <h4>
+                    One-Way data Binding
+                </h4>
+                <p>
+                    The greeting message is displayed using one-way binding,
+                    where data flows from the component to the UI only.
+                </p>
+            </div>
         </div>
     </div>
 </div>
